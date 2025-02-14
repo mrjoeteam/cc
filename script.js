@@ -28,7 +28,7 @@ if (menuIcon) {
 // Typing Animation (safe if elements exist)
 const paragraphs = document.querySelectorAll('.typing-animation');
 paragraphs.forEach((paragraph, index) => {
-  paragraph.style.animationDelay = `${index * 6}s`;
+  paragraph.style.animationDelay = `${index * 2}s`;
   paragraph.style.opacity = 1;
   paragraph.style.width = "100%";
 });
